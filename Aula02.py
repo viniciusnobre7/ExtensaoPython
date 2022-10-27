@@ -1,13 +1,20 @@
 # Projeto Python !
 
+from re import M
+from tkinter import N
+
+
 print("Ficha Cadastral")
 
-nome  = "Vini dos Baile"
-idade =  20
+
+nome = input("Digite seu nome = ") 
+idade = int(input("Digite sua idade = "))
 
 
-print("Meu nome é "+nome)
-print("Minha idade  é "+str(idade))
+
+print ("Seu nome e " +(nome)) 
+print ("Sua idade é "+str(idade))
+
 
 
 
